@@ -11,12 +11,10 @@ import pandas as pd
 
 from google.colab import files
 
-# Esto abrirá un diálogo para subir archivos desde tu computadora
 uploaded = files.upload()
 
 import pandas as pd
 
-# Cargar el archivo CSV que subiste
 df = pd.read_csv("adult.data.csv", header=None)
 
 # Asignar nombres de columnas
